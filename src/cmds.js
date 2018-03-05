@@ -97,8 +97,10 @@ exports.test = function (rl,id) {
                 log('Su respuesta es correcta.');
                 if(0==answer.toUpperCase().trim().localeCompare(quiz.answer.toUpperCase().trim())){
                     biglog('Correcta','green');
+                    log('correcta');
                 }else{
                     biglog('Incorrecta','red');
+                    log('Tu vida es incorrecta.');
                 }
                 rl.prompt();
             });
@@ -131,7 +133,7 @@ exports.play = function (rl) {
                 playOne();
             }else{
                 log(`INCORRECTO.`);
-                log(`Fin del juego. Aciertos: ${score}`);
+                log(`Tu respuesta es incorrecta. Fin del juego. Aciertos: ${score}`);
                 biglog(score,'magenta');
                 rl.prompt();
             }
