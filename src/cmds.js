@@ -121,7 +121,6 @@ exports.play = function (rl) {
       }
         id = parseInt(Math.random()*toBeResolved.length);
         let quiz = toBeResolved[id];
-        log(`id de la pregungta ${id} y el lengt ${toBeResolved.length}`);
 
         rl.question(colorize(quiz.question +'? ','red'), (answer)=> {
             log('Su respuesta es correcta.');
