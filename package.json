@@ -1,0 +1,21 @@
+{
+  "name": "p2_quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{"start": "node src/index.js"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgraus/P2_Quiz.git"
+  },
+  "author": "gruas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgraus/P2_Quiz/issues"
+  },
+  "homepage": "https://github.com/fgraus/P2_Quiz#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "figlet": "^1.2.0"
+  }
+}
